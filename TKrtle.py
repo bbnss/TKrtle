@@ -239,9 +239,13 @@ def Button_click ():
 def Button_click2 ():
     #tkinter.messagebox.showinfo("Bene!", " Iniziamo!! ")
     fiore()
+    time.sleep(1)
     sole()
+    time.sleep(1)
     casa()
+    time.sleep(1)
     stella()
+    time.sleep(1)
 
 
 #Tasti Numeri
@@ -296,19 +300,19 @@ Board_Button0.grid(padx=2, pady=2, row=10, column=11, sticky='nsew')
 
 #Tasti Disegni
 
-Board_Button11 = tkinter.Button(master = window, text ="disegna un Fiore", command = fiore)
+Board_Button11 = tkinter.Button(master = window, text ="Disegna un Fiore", command = fiore)
 Board_Button11.config(bg="cyan",fg="black")
 Board_Button11.grid(padx=2, pady=2, row=1, column=12, sticky='nsew')
 
-Board_Button12 = tkinter.Button(master = window, text ="disegna il Sole", command = sole)
+Board_Button12 = tkinter.Button(master = window, text ="Disegna il Sole", command = sole)
 Board_Button12.config(bg="cyan",fg="black")
 Board_Button12.grid(padx=2, pady=2, row=2, column=12, sticky='nsew')
 
-Board_Button13 = tkinter.Button(master = window, text ="disegna una Casa", command = casa)
+Board_Button13 = tkinter.Button(master = window, text ="Disegna una Casa", command = casa)
 Board_Button13.config(bg="cyan",fg="black")
 Board_Button13.grid(padx=2, pady=2, row=3, column=12, sticky='nsew')
 
-Board_Button14 = tkinter.Button(master = window, text ="disegna una Stella", command = stella)
+Board_Button14 = tkinter.Button(master = window, text ="Disegna una Stella", command = stella)
 Board_Button14.config(bg="cyan",fg="black")
 Board_Button14.grid(padx=2, pady=2, row=4, column=12, sticky='nsew')
 
